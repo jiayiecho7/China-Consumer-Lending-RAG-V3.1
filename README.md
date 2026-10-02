@@ -6,7 +6,7 @@ This project retrieves Chinese regulatory provisions for consumer-lending compli
 
 ## Version and file naming
 
-V3.1 means the historical V3 pipeline with Q36 repaired. It is a project version, not a model name. Every notebook and report in this submission uses the V3.1 suffix to identify the adopted project release. Supporting audits document that release; their suffix does not imply a new experiment. V5 appears only as a comparison in the evaluation materials.
+V3.1 means the historical V3 pipeline with Q36 repaired. It is a project version, not a model name. Every project notebook and report in this submission uses the V3.1 suffix to identify the adopted project release. Supporting audits document that release; their suffix does not imply a new experiment. V5 appears only as a comparison in the evaluation materials.
 
 ## Run in Google Colab
 
@@ -18,6 +18,7 @@ The notebook includes its setup instructions. For detailed dependencies, archite
 
 ## Submission contents
 
+- [01_Problem_Statement_V3.1.ipynb](01_Problem_Statement_V3.1.ipynb) — Project problem, regional scope, intended user, approach and evaluation.
 - [00_Status_and_Submission_Map_V3.1.ipynb](00_Status_and_Submission_Map_V3.1.ipynb)
 - [02_Main_Code_and_API_V3.1.ipynb](02_Main_Code_and_API_V3.1.ipynb)
 - [03_Data_and_Corpus_V3.1.ipynb](03_Data_and_Corpus_V3.1.ipynb)
@@ -28,8 +29,6 @@ The notebook includes its setup instructions. For detailed dependencies, archite
 - [08_Regulatory_Source_Verification_V3.1.ipynb](08_Regulatory_Source_Verification_V3.1.ipynb)
 - [09_Gold_and_Key_Clause_Verification_V3.1.ipynb](09_Gold_and_Key_Clause_Verification_V3.1.ipynb)
 - [README_V3.1.ipynb](README_V3.1.ipynb)
-- [Consumer_Lending_V3.1_Report.pdf](report/Consumer_Lending_V3.1_Report.pdf)
-- [Consumer_Lending_V3.1_Report.md](report/Consumer_Lending_V3.1_Report.md)
 
 ## Evaluation scope
 
@@ -37,8 +36,8 @@ Eight regulatory instruments, 199 chunks and fifty development questions underpi
 
 The AI-assisted review of fifty gold mappings and source corrections is documented separately in notebook 09. Six answer-review judgments were confirmed by LI JIAYI on 2026-10-03; full independent human review of all fifty labels is not claimed. Post hoc label sensitivity is not a new retrieval experiment. Provider cache costs are not reconciled invoices.
 
-The English report has been approved by the student. The student supplies the recorded face-and-screen demonstration alongside the submission.
+The written report and demonstration video are submitted separately through the course platform. The English report has been approved by the student.
 
 ## Upload to GitHub
 
-Extract this archive and upload its contents, including this README.md, the ten notebooks and the report folder. Keep the directory structure. Submit the repository URL through the course portal and ensure the instructor can access it. Supply the video separately as required by the portal. Do not embed API keys in files or notebook outputs.
+Extract this archive and upload its contents, including this README.md, the eleven notebooks. Keep the directory structure. Submit the repository URL through the course portal and ensure the instructor can access it. Supply the video separately as required by the portal. Do not embed API keys in files or notebook outputs.
